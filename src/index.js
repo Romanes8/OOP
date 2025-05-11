@@ -43,8 +43,6 @@ export class Character {
           this.attack = 40;
           this.defence = 10;
           break;
-        default:
-          throw new Error('Некорректный тип персонажа');
       }
     }
   }
@@ -85,7 +83,6 @@ export class Character {
     }
   }
 
-  const zom = new Zombie('Rom')
-  console.log(zom)
+
 
   
